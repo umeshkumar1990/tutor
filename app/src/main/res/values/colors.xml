@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="login_text_color">#537182</color>
+    <color name="tutor_list_item_color">#c3c3c3</color>
+
+    <!-- different text color -->
+    <color name="logo_text_tutor_color">#e8f0f1</color>
+    <color name="logo_text_eys_color">#819baa</color>
+    <color name="signup_edittext_color">#fafafa</color>
+    <color name="signup_edittext_border_color">#4e697a</color>
+    <color name="signup_btn_bg_color">#081d30</color>
+    <color name="bottom_text_color">#b3bfb7</color>
+    <color name="dialog_title_color">#081d30</color>
+    <color name="dialog_title_underline_color">#bfbfbf</color>
+    <color name="list_tutor_color">#1a3349</color>
+    <color name="list_tutor_type_color">#6c6d6d</color>
+    <color name="list_view_detail_color">#747474</color>
+    <color name="list_label_color">#929292</color>
+    <color name="inactive_tab_color">#878b8d</color>
+    <color name="color_primary">#1a3349</color>
+    <color name="color_secondary">#1a3349</color>
+
+</resources>

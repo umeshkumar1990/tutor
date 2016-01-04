@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/rounded_corner"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/choose_country"
+        android:textColor="@color/dialog_title_color"
+        android:textSize="@dimen/font_size_seventeen"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bfbfbf" />
+
+    <ListView
+        android:id="@+id/listView_country"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        style="@style/ScrollTheme"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:scrollbarStyle="outsideOverlay" >
+    </ListView>
+
+</LinearLayout>
