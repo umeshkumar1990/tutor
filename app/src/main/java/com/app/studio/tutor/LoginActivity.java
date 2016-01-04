@@ -14,7 +14,8 @@ import android.widget.Toast;
 import com.app.studio.tutor.utils.PreferenceUtils;
 
 public class LoginActivity extends ActionBarActivity {
-	
+
+	//UI Element
 	private TextView txtViewForgotPass;
 	private Button   btnLogin;
 	private EditText edtTextUserName;
